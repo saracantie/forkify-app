@@ -1,0 +1,27 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe application",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saracantie/forkify-app.git"
+  },
+  "author": "sara cantie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saracantie/forkify-app/issues"
+  },
+  "homepage": "https://github.com/saracantie/forkify-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
